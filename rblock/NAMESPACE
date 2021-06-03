@@ -1,0 +1,8 @@
+useDynLib(rblock)
+importFrom(Rcpp, evalCpp)
+export(resetGraph, resetModel,
+       deleteGraph, deleteModel,
+       loadGraph, printGraph,
+       loadMetaData, runDCSBM,
+       print, fitParams,
+       getVertexKProbs)

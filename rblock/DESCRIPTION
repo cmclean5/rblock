@@ -1,0 +1,12 @@
+Package: rblock
+Title: SBM with node meta-data
+Version: 1.0
+Date: 2020-04-16
+Author: Colin Mclean
+Maintainer: Colin Mclean <Colin.D.Mclean@ed.ac.uk>
+Description: SBM, and DC-SBM with assocciated node catagorical meta-data
+Depends: R (>= 3.6.3) 
+Imports: Rcpp (>= 1.0.4)
+LinkingTo: Rcpp, RcppGSL
+URL: 
+License: GPL (>= 2)

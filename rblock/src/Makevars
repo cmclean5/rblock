@@ -1,0 +1,9 @@
+
+# set by configure
+GSL_CFLAGS  = -I/usr/include
+GSL_LIBS    = -L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm
+OPENMP_FLAG = -L/usr/lib/x86_64-linux-gnu -lgomp
+
+# combine with standard arguments for R
+PKG_CPPFLAGS = $(GSL_CFLAGS) $(SHLIB_OPENMP_CXXFLAGS)
+PKG_LIBS = $(OPENMP_FLAG) $(GSL_LIBS)
