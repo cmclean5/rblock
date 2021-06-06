@@ -2,7 +2,7 @@
 Block Model c/c++ code wrapped in R
 
 <p align="center">
-  <img src="rblock/image/Figure_SBM.png" hight="800" width="400" title="">
+  <img src="rblock/image/Figure_SBM.png" hight="1200" width="800" title="">
   <!-- <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text"> -->
 </p>
 
