@@ -1,6 +1,11 @@
 # rblock
 Block Model c/c++ code wrapped in R
 
+<p align="center">
+  <img src="image/Figure_SBM.png" hight="1000" width="600" title="">
+  <!-- <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text"> -->
+</p>
+
 Code to run the traditional Stochastic Block Model (SBM) and Degree-Corrected Stochastic Block Model (DC-SBM) on a network, given either continuous or categorical 
 meta-data associated with the network's nodes [1]. Model selected using the Minimum Description Length (MDL) approach [2] (to complete), and block selection using an MCMC approach [3] (to complete). 
 
